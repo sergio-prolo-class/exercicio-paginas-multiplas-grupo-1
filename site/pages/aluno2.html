@@ -1,46 +1,175 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>África do sul</title>
-    <header>
-        <h1 style="text-align: center;">África do sul</h1>
-        <div style="display: flex; justify-content: center;"><img src="\\wsl.localhost\Ubuntu-22.04\home\joao\IFSC\FE\exercicio-paginas-multiplas-grupo-1\site\resources\img\cape-town.jpg" alt="Foto Cape town" width="600" height="400"></div>
-    </header>
+    <title>África do Sul</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .item_lista_texto {
+            text-align: center;
+            padding: 10px;
+        }
+
+        .galeria {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .galeria a img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s;
+        }
+
+        .galeria a img:hover {
+            transform: scale(1.05);
+        }
+    </style>
 </head>
-<hr>
+
 <body>
+    <header>
+        <h1 style="text-align: center;">África do Sul</h1>
+        <div style="display: flex; justify-content: center;">
+            <img src="../resources/img/cape-town.jpg" alt="Foto Cape Town" width="600" height="400">
+        </div>
+        <p style="text-align: center;"><a href="../index.html">Voltar para o Índice</a></p>
+    </header>
+
     <article>
-        <h2>Porque este destino?</h2>
+        <h2>Por que este destino?</h2>
         <p>
             Escolhi a África do Sul como destino de viagem por ser um país repleto
-             de contrastes incríveis, paisagens deslumbrantes e uma cultura rica e 
-             diversa. É um lugar onde natureza, história e aventura se encontram. 
-             Desde os safáris no Kruger Park até a vibrante Cidade do Cabo, 
-             a África do Sul oferece experiências únicas que despertam todos os 
-             sentidos. Além disso, é uma oportunidade de conhecer mais sobre a 
-             história do apartheid e o legado de Nelson Mandela, tornando a 
-             viagem não só divertida, mas também muito enriquecedora.
-          </p>
+            de contrastes incríveis, paisagens deslumbrantes e uma cultura rica e
+            diversa. É um lugar onde natureza, história e aventura se encontram.
+            Desde os safáris no Kruger Park até a vibrante Cidade do Cabo,
+            a África do Sul oferece experiências únicas que despertam todos os
+            sentidos. Além disso, é uma oportunidade de conhecer mais sobre a
+            história do apartheid e o legado de Nelson Mandela, tornando a
+            viagem não só divertida, mas também muito enriquecedora.
+        </p>
     </article>
+
     <hr>
+
     <section>
-        <h2>Informações da Viagem</h2>
-<dl>
-  <dt><h2>Idiomas oficiais</h2></dt>
-  <dd><h3>Africanêr</h3> <h3>Zulu</h3> <h3>Inglês</h3>
-    <h3>Xhosa</h3> <h3>Língua venda</h3> <h3>Soto do sul</h3>
-    <h3>Soto setentrional</h3> <h3>Tswana</h3> <h3>Língua tsonga</h3>
-    <h3>Língua suázi</h3> <h3>Língua gestual sul-africana</h3>
-    <h3>Língua andebele meridional</h3></dd>
+        <h2 class="item_lista_texto">Informações da Viagem</h2>
+        <h3 class="item_lista_texto">Idiomas oficiais</h3>
+        <ul class="item_lista_texto">
+            <li>Africanêr</li>
+            <li>Zulu</li>
+            <li>Inglês</li>
+            <li>Xhosa</li>
+            <li>Venda</li>
+            <li>Soto do sul</li>
+            <li>Soto setentrional</li>
+            <li>Tswana</li>
+            <li>Tsonga</li>
+            <li>Suázi</li>
+            <li>Língua gestual sul-africana</li>
+            <li>Ndebele meridional</li>
+        </ul>
 
-  <dt></dt>
-  <dd></dd>
+        <h3 class="item_lista_texto">Moeda do país</h3>
+        <p class="item_lista_texto">Rand (ZAR)</p>
+        <p class="item_lista_texto">1,0 BRL = 3,3 ZAR</p>
 
-  <dt></dt>
-  <dd></dd>
-</dl>
+        <h3 class="item_lista_texto">Melhor época do ano para visitar</h3>
+        <p class="item_lista_texto">
+            A melhor época para visitar a África do Sul é de maio a setembro,
+            quando o clima é seco e ideal para safáris, pois facilita a visualização
+            de animais, tem menos mosquitos e temperaturas agradáveis.
+        </p>
     </section>
+
+    <h2 class="item_lista_texto">Galeria de Pontos Turísticos</h2>
+    <div class="galeria">
+        <a href="https://www.suninternational.com/sun-city/" target="_blank">
+            <img src="../resources/img/SunCity.webp" alt="SunCity">
+        </a>
+
+        <a href="https://africadosulbrasil.com.br/cidades/cape-town/" target="_blank">
+            <img src="../resources/img/capeTown2.jpg" alt="Cape Town">
+        </a>
+
+        <a href="https://www.vivasafaris.com/" target="_blank">
+            <img src="../resources/img/Safari.jpg" alt="Safari">
+        </a>
+    </div>
+
+    <h2 class="item_lista_texto">Música típica</h2>
+    <div style="text-align: center;">
+        <audio src="../resources/audio/soul-of-songs_shakira-waka-waka-this-time-for-africa.mp3" autoplay loop>
+        
+            Seu navegador não suporta áudio HTML5.
+        </audio>
+        <p>
+            Escolhi a música <strong>"Waka Waka (This Time for Africa)"</strong> da Shakira, pois foi o hino da Copa do Mundo de 2010,
+            realizada na África do Sul. A canção representa a energia, alegria e a união dos povos africanos.
+        </p>
+    </div>
+
+    <h2 class="item_lista_texto">Itinerário de Viagem</h2>
+    <table style="margin: 0 auto; border-collapse: collapse;">
+        <thead>
+            <tr style="background-color: #f2f2f2;">
+                <th style="border: 1px solid #ddd; padding: 10px;">Dia</th>
+                <th style="border: 1px solid #ddd; padding: 10px;">Atividade e Local</th>
+                <th style="border: 1px solid #ddd; padding: 10px;">Custo Estimado</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="border: 1px solid #ddd; padding: 10px;">1</td>
+                <td style="border: 1px solid #ddd; padding: 10px;">Chegada em Joanesburgo e city tour</td>
+                <td style="border: 1px solid #ddd; padding: 10px;">R$ 300</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ddd; padding: 10px;">2</td>
+                <td style="border: 1px solid #ddd; padding: 10px;">Safari no Kruger Park</td>
+                <td style="border: 1px solid #ddd; padding: 10px;">R$ 500</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ddd; padding: 10px;">3</td>
+                <td style="border: 1px solid #ddd; padding: 10px;">Visita à Cidade do Cabo</td>
+                <td style="border: 1px solid #ddd; padding: 10px;">R$ 400</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2 class="item_lista_texto">Quero ir junto!</h2>
+    <form style="text-align: center; margin-bottom: 40px;">
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="periodo">Período disponível para viajar:</label><br>
+        <input type="text" id="periodo" name="periodo" required><br><br>
+
+        <label for="comentario">Comentário (opcional):</label><br>
+        <textarea id="comentario" name="comentario" rows="4" cols="40"></textarea><br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <footer style="background-color: #f2f2f2; padding: 20px; text-align: center;">
+        <p>Obrigado por visitar minha página sobre a África do Sul!</p>
+        <p>Autor: João - Aluno do IFSC</p>
+        <p>Agradecimentos especiais ao professor Sérgio e à professora Ana pelo apoio, orientação e incentivo ao longo do desenvolvimento deste trabalho.</p>
+        <a href="#">Voltar ao topo</a>
+    </footer>
 </body>
+
 </html>
