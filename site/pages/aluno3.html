@@ -1,28 +1,162 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>Aluno </title>
+    <title>Aluno 3 </title>
 </head>
-
 <body>
-    <header>
+     <header> <section>
         <h1>Receita de cookies de chocolate</h1>
-        <img src="../resources/img/cookies chocolate.webp" width="400" height="400" alt="Imagem da receita">
-    </header>
+    <div>
+        <img src="../resources/img/cookies chocolate.webp" width="350" height="350" alt="Imagem da receita">
+         </div>
+        <h2>Origem da receita</h2>
+        <p>  
+     A origem do cookies se deu pela chef gastronomica Ruth Graves Wakefield em 1938 ,epoca que tinha restaurante de comida caseira
+     e tudo começou quando ela colocou pedaços de barras de chocolate e foi assim que criou o primeiro cookie de
+     chocolate.
+     <br>
+     <a href="https://pt.wikipedia.org/wiki/Estados_Unidos"  
+        target = "_blank"> Ir para origem da receita </a>
+        </p>
+        <p>
+ O que me motivou foi porque adoro esse biscoito, sendo que no subway é um dos melhores locais para
+ saborear, biscoito com textura macia e deliciosa que combina com tudo café da tarde, lanche , depois do
+ almoço, serve para tudo.
+       </p>
+     </header>
+
     <div class="ingredientes">
-        <h2>Lista descritiva da receita</h2>
+        <h3>Lista descritiva da receita</h3>
         <dl>
-            <dt>ingredientes principais</dt>
-            <dd>ovos</dd>
-            <dd>acuçar mascavo</dd>
-            <dd>sal</dd>
-            <dd>farinha de trigo </dd>
-            <dt>tempo de preparo</dt>
-            <dd>30 minutos</dd>
-            <dt> dificuldade</dt>
-            <dd>facil</dd>
+            <dt><strong>Ingredientes Principais</strong></dt>
+            <dd>Ovos</dd>
+            <dd>Acuçar Mascavo</dd>
+            <dd>Margarina</dd>
+            <dd>Farinha de trigo </dd>
+            <dd>Gotas de chocolate</dd>
+            <dd>Baunilha</dd>
+            <dd>Acuçar cristal</dd>
+            <dt><strong>Tempo de Preparo</strong></dt>
+            <dd>40 minutos</dd>
+            <dt><strong>Dificuldade</strong></dt>
+            <dd>Facil</dd>
         </dl>
+
+        <div style="padding: 12px;">
+        <p><strong>Música Escolhida:"Put Your Records On" – Corinne Bailey Rae</strong></p>
+        <!--Player audio-->
+        <audio controls loop>
+            <source src="../resources/audio/Corinne Bailey Rae - Put Your Records On.mp3" type="audio/mpeg">
+            
+          </audio>
+       <audio src="..\resources\audio\Corinne Bailey Rae - Put Your Records On.mp3"  autoplay loop></audio>     
+        <p>Essa música foi escolhida por ter uma melodia calma e aconchegante, 
+        ideal para acompanhar o preparo da receita. Pois transmite sensação 
+        de tranquilidade e harmonia.</p> 
+     
+        </div>
+     </section>
+        
+    <section>
+            <h4 style="font-size: 22px;"> Galeria da confecção receita </h4>
+            <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 4px;">
+             <img width="300" height="300" src="../resources/img/cookie-de-chocolate-receita-2.jpg"
+            alt="cookies">
+             <img width="300" height="300" src="..\resources\img\cafe e choco.avif" 
+             alt= "preparo receita">
+             <img width="200" height="300" src="../resources/img/cookies-de-chocolate- preparo.webp"
+             alt="cookies">
+             <img width="300" height="300" src="../resources//img/nutren.jpg" alt="receita">
+             <img width="300" height="300" src ="..\resources\img\chcolate.avif" alt="chocolate">
+             <img width="300" height="300" src="..\resources\img\nestle.jpg" alt="receita">
+           </div>
+    </section>
+           <br>
+           <section>
+             <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 4px;">   
+             <table border="1" >
+                <thead>
+                    <tr>
+                       <th>Ingredientes</th>
+                        <th>Quantidade</th>
+                        <th>Observações </th>
+                    </tr>
+                </thead>
+                <tbody>
+                     <tr>
+                    <td>1 xícara</td>
+                    <td>Açucar</td>
+                    <td>Meia a meia de mascavo</td>
+                     </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Ovos</td>
+                      <td>Use temperatura ambiente</td>
+                     </tr>
+                     <tr>
+                        <td>2 colher(sopa)</td>
+                        <td>Margarina</td>
+                        <td>Pode usar manteiga, mas o sabor muda</td>
+                     </tr>
+                    <tr>
+                       <td>2 xicaras </td>
+                       <td>Farinha de trigo</td>
+                       <td>sem substituições</td>
+                    </tr>
+                        <td>1 colher(sombremesa)</td>
+                        <td>Baunilha essencia</td>
+                    <tr>
+                      <td>1 barra</td>
+                      <td>De chocolate picado </td>
+                      <td>Se quiser substituir por gotas de chocolate</td>
+                    </tr>
+                    <tr>
+                        <td>1 xicara</td>
+                        <td>Açucar cristal</td>
+                        <td>Se quiser pode colocar menos qtd de açucar</td>
+                    </tr>
+                </tbody>
+            
+          </table>
+        </div>
+     </section>
+     <br>
+     <br>
+     <section>
+     <br>  
+       <form> 
+        <h5 style="font-size: 20px;"> Envie sua versão </h5> 
+        <label for="nome">Nome </label>
+       <br>
+       <input type="text" id="nome" name="nome" required> <br>
+       <br>
+       <label for="email">Email</label>
+       <br><input type="email" id="email" name="email" required> <br>
+       <br>
+       <label for="nota">De uma nota para esta receita</label> <br>
+       <input type="number" id="nota" name="nota"> 
+       <br> 
+       <br>
+       <label for="sugestao" >Outra sugestão de variação</label> <br>
+       <textarea type="text" id="comentario" rows="4" cols="50"></textarea>
+       <br>
+       <input type="submit" value="Enviar sugestão">
+        </form>
+         </article>
+         <br>
+         
+         <br>
+         <div>
+         <footer style ="background-color:  #f2f2f2; padding: 10px; text-align:center;"
+            <p><strong>Obrigada por visitar esta pagina!</strong></p>
+             <a href="#top">Voltar ao topo</a>
+            <p>Mônica - autora da pagina</p>
+            <p>Agradecimento aos professores pelo incetivo e </p>
+            aprendizado por todo conhecimento.</p>
+            
+        </footer> 
+        </div> 
+    </section>
         <!-- 
 <li> 200 g de manteiga em temperatura ambiente
  <li>  1/2 xícara (100 g) de açúcar </li>
@@ -34,5 +168,4 @@
   <li> 2 ovos</li>
   <li> 1/2 xícaras do “recheio” do seu gosto </li> -->
 </body>
-
 </html>
