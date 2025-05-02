@@ -1,0 +1,65 @@
+Relatório de Correção – Grupo 01
+Índice
+O cabeçalho contém apenas o título “Índice”, mas deveria ser “Índice – Grupo 1”.
+
+
+O elemento <meta name="viewport" content="width=device-width, initial-scale=1.0"> foi utilizado, mas não foi ensinado em aula.
+
+
+Victor Blum
+Validador: erros no uso de <table border="1">.
+
+
+O elemento <meta name="viewport" content="width=device-width, initial-scale=1.0"> foi utilizado, mas não foi ensinado.
+
+
+Sugestão: o conteúdo da tag <title> poderia ser o nome do autor ou do filme.
+
+
+Faltou o uso adequado de elementos semânticos.
+
+
+O atributo alt das imagens é o mesmo para todas as cenas.
+
+
+O player de áudio <audio> não está aparecendo na página.
+
+
+No rodapé, o link do LinkedIn está sem o atributo href, então ele não direciona o usuário para nenhum lugar.
+
+
+João Pedro Callegaro Guimarães
+Validador: sem erros.
+
+
+O campo "Período disponível para viagem" deveria ser um <input type="date"> ou apresentar um calendário.
+
+
+O player de áudio <audio> está aparecendo corretamente.
+
+
+O elemento <meta name="viewport" content="width=device-width, initial-scale=1.0"> foi utilizado, mas não foi ensinado.
+
+
+Faltou o uso adequado de elementos semânticos.
+
+
+Não há uma lista descritiva (<dl>).
+
+
+Monica Cancellier
+O documento apresentou muitos erros no validador.
+
+
+A nota da receita não possui limite inferior ou superior, permitindo valores irreais (ex.: -44, 125).
+
+
+Sugestão: o <title> poderia ser o nome do autor ou do filme.
+
+
+Os divisores semânticos estão mal aplicados, o que causa confusão sobre onde os elementos começam e terminam.
+
+
+Faltou um hiperlink (<a>) para retornar ao índice.
+
+
